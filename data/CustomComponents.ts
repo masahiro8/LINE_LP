@@ -25,14 +25,19 @@ const headerMenu = [
 /*--Feature 1--*/
 const feature1 =[
   {
-    title: "Instant Solutions",
-    icon: "mdi mdi-star",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique pellentesque ipsum.",
+    title: "お客様に”もっとも近い”スマートフォンにアプローチ",
+    icon: "mdi mdi-check-circle",
+    desc: "利用率の高いLINEを通じて、生活者にとってもっとも身近なデバイスである、スマートフォンに直接アクセスすることができます。年代を問わず、人々の生活に密着したコミュニケーションサービスです。",
   },
   {
-    title: "Powerful Techniques",
+    title: "すぐに送れて、すぐに読まれる！",
     icon: "mdi mdi-check-circle",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique pellentesque ipsum.",
+    desc: "LINEを通じてお店から配信したメッセージは、プッシュ通知されます。SNSやメルマガと比べてダイレクトにメッセージが届きます。また、一斉にたくさんのお客様へメッセージを配信することができます。",
+  },
+  {
+    title: "販促ツールとしての”手軽さ”",
+    icon: "mdi mdi-check-circle",
+    desc: "誰でも簡単にメッセージを送ることができます。さらにチラシやDMのように制作コストや時間を掛けずに利用できます。クーポン配信なども可能で、キャンペーンやイベントの告知にも販売促進ツールとして活用できます。",
   },
 ];
 

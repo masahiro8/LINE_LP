@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import {feature1} from '@/data/CustomComponents'
+import { feature1 } from "@/data/CustomComponents";
 </script>
 <template>
   <div>
@@ -16,12 +16,10 @@ import {feature1} from '@/data/CustomComponents'
                 Feature 1
               </v-chip>
               <h2 class="section-title font-weight-medium">
-                Awesome with Extra Ordinary Flexibility
+                LINE公式アカウント活用のメリット
               </h2>
               <p class="text-muted">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                LINEの国内月間アクティブユーザーは、8300万人以上（LINE紹介資料2020年1月-6月期より）となり、多くの生活者（ユーザー）が活用するメールでのメッセージに代わるコミュニケーション手段となりました。そのため企業はLINEをマーケティングに活用することで、多くの生活者とダイレクトにコミュニケーションをとることができます。LINEで生活者とダイレクトにコミュニケーションをとるメリットは主に以下3点となります。
               </p>
             </div>
           </v-col>

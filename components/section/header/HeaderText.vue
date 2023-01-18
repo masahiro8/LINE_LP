@@ -8,11 +8,10 @@
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Header/Navigation</h2>
+              <h2 class="ui-title font-weight-bold">LINE公式アカウントとは?</h2>
               <p class="text-muted">
-                Here you can check Demos we created you can easily use it. Its
-                quite easy to Create your own dream website & dashboard in
-                No-time.
+                「LINE公式アカウント」とは、店舗やネットショップオーナー様向けのLINEを用いた集客サービスを利用するためのアカウントです。個人アカウントと同様に公式アカウントに友だち追加していただき、事業者様側から直接、LINEを通してユーザーへ、トークでメッセージや画像、クーポンやセール情報などを届けることが可能です。
+                チラシやメルマガなどと比べて、メッセージの開封率が高く、より近い距離感でのアプローチが可能となります。
               </p>
             </div>
           </v-col>

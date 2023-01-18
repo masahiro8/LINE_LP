@@ -9,14 +9,16 @@
         First Column
       ----------------------------------------------- -->
         <v-col cols="12" md="3" sm="6" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Address</h4>
-          <p class="mt-5 text-muted">71 Amsteroum Avenue Cronish Night, NY 35098</p>
+          <h4 class="font-weight-regular font-18">住所</h4>
+          <p class="mt-5 text-muted">
+            〒901-2131　沖縄県浦添市牧港３丁目２２−５
+          </p>
         </v-col>
         <!-- -----------------------------------------------
         Second Column
       ----------------------------------------------- -->
         <v-col cols="12" md="3" sm="6" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Phone</h4>
+          <h4 class="font-weight-regular font-18">電話</h4>
           <p class="mt-5 text-muted">Reception : +205 123 4567</p>
           <p class="text-muted">Office : +207 235 7890</p>
         </v-col>
@@ -24,22 +26,20 @@
         Third Column
       ----------------------------------------------- -->
         <v-col cols="12" md="3" sm="6" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Email</h4>
+          <h4 class="font-weight-regular font-18">メール</h4>
           <p class="mt-5 text-muted">
             Office : <a class="dark-link" href="/">info@wrappixel.com</a>
           </p>
           <p>
-            <span class="text-muted">Site : </span>
-            <a class="dark-link" href="https://www.wrappixel.com/"
-              >wrappixel.com</a
-            >
+            <span class="text-muted">Site: </span>
+            <a class="dark-link" href="https://backham.me/">backham.me</a>
           </p>
         </v-col>
         <!-- -----------------------------------------------
         Fourth Column
       ----------------------------------------------- -->
         <v-col cols="12" md="3" sm="6" class="px-xs-0">
-          <h4 class="font-weight-regular font-18">Social</h4>
+          <h4 class="font-weight-regular font-18">SNS</h4>
           <div class="social-icons mt-5">
             <a href="#">
               <i class="mdi mdi-facebook"></i>
@@ -63,15 +63,8 @@
         <div class="d-block d-sm-flex align-center">
           <p class="text-muted mb-sm-0 mb-3">
             All Rights Reserved by
-            <a href="https://www.wrappixel.com/" class="link">wrappixel.com</a>
+            <a href="https://backham.me/" class="link">https://backham.me/</a>
           </p>
-          <div class="ml-auto">
-            <div class="d-sm-flex align-center">
-              <a href="/" class="link px-sm-4 ps-0">Terms of Use</a>
-              <a href="/" class="link px-sm-4 px-2">Legal Disclaimer</a>
-              <a href="/" class="link px-sm-4 px-2">Privacy Policy</a>
-            </div>
-          </div>
         </div>
       </div>
     </v-container>

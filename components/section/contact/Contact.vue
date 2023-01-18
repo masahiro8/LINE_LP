@@ -44,10 +44,10 @@
                   to="/"
                   class="btn-danger-gradient mt-7 px-8 py-2"
                   variant="outlined"
-                  flat color="white"
-
+                  flat
+                  color="white"
                 >
-                  Submit
+                  送信
                 </v-btn>
               </form>
             </div>
@@ -55,12 +55,11 @@
           <v-col cols="12" md="4">
             <div class="bg-primary contact-detail-card">
               <h2 class="detail-title font-weight-medium text-white">
-                Wrappixel Headquarters
+                バッカム株式会社
               </h2>
-              <p class="mt-7 op-8 mb-0 text-white">251 546 9442</p>
               <p class="op-8 mb-8 text-white">info@wrappixel.com</p>
-              <p class="mt-7 op-8 mb-0 text-white">601 Sherwood Ave.</p>
-              <p class="op-8 mb-0 text-white">San Bernandino, CA 92404</p>
+              <p class="mt-7 op-8 mb-0 text-white">〒901-2131</p>
+              <p class="op-8 mb-0 text-white">沖縄県浦添市牧港３丁目２２−５</p>
             </div>
           </v-col>
         </v-row>
@@ -71,4 +70,3 @@
     </div>
   </div>
 </template>
-
