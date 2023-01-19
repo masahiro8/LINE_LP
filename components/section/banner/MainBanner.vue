@@ -6,7 +6,7 @@
         ----------------------------------------------- -->
       <v-row justify="center">
         <v-col cols="12" sm="7" lg="6" class="d-flex align-center">
-          <div class="text-sm-left text-center">
+          <div class="pl-10 text-sm-left text-center">
             <h1 class="banner-title font-weight-bold text-white">
               LINE公式アカウント<br />登録代行・運用サポート
             </h1>
@@ -17,7 +17,7 @@
             </h4>
             <div class="mt-md-16 mt-10 d-sm-flex d-block">
               <v-btn
-                color="error"
+                color="blue"
                 class="mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
                 size="large"
                 flat

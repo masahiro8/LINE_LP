@@ -25,39 +25,49 @@ const headerMenu = [
 /*--Feature 1--*/
 const feature1 =[
   {
-    title: "お客様に”もっとも近い”スマートフォンにアプローチ",
-    icon: "mdi mdi-check-circle",
-    desc: "利用率の高いLINEを通じて、生活者にとってもっとも身近なデバイスである、スマートフォンに直接アクセスすることができます。年代を問わず、人々の生活に密着したコミュニケーションサービスです。",
+    title: "ターゲットに向けたコミュニケーション",
+    icon: "mdi mdi-chat-outline",
+    desc: "利用率の高いLINEを通じて、ターゲットとなる顧客に向けて密着したコミュニケーションを行うことができます。",
   },
   {
-    title: "すぐに送れて、すぐに読まれる！",
-    icon: "mdi mdi-check-circle",
-    desc: "LINEを通じてお店から配信したメッセージは、プッシュ通知されます。SNSやメルマガと比べてダイレクトにメッセージが届きます。また、一斉にたくさんのお客様へメッセージを配信することができます。",
+    title: "プッシュ通知を使った情報配信",
+    icon: "mdi mdi-chat-outline",
+    desc: "顧客に対して最新の情報をLINEを通してプッシュ通知されます。SNSやメルマガと比べてダイレクトにメッセージが届けられます。また、一斉にたくさんの顧客へメッセージを配信することができます。",
   },
   {
-    title: "販促ツールとしての”手軽さ”",
-    icon: "mdi mdi-check-circle",
-    desc: "誰でも簡単にメッセージを送ることができます。さらにチラシやDMのように制作コストや時間を掛けずに利用できます。クーポン配信なども可能で、キャンペーンやイベントの告知にも販売促進ツールとして活用できます。",
+    title: "カスタマーサポートの提供",
+    icon: "mdi mdi-chat-outline",
+    desc: "チャットボットを活用することで顧客からの質問や不明点に対して迅速に対応することができます。",
   },
+  {
+    title: "キャンペーンやイベントの案内",
+    icon: "mdi mdi-chat-outline",
+    desc: "キャンペーンやイベントの情報を発信することができます。チラシやDMのように制作コストや時間を掛けずに利用できます。クーポン配信なども可能で、キャンペーンやイベントの告知にも販売促進ツールとして活用できます。",
+  },
+  {
+    title: "データの収集",
+    icon: "mdi mdi-chat-outline",
+    desc: "顧客からの意見やアクションを記録し、データとして収集することができます。収集したデータを分析することで、顧客に対してターゲットとなるコミュニケーションを行うことができます。また、顧客の売上や購入傾向なども分析し、マーケティング戦略を立てることができます。",
+  },
+  
 ];
 
-/*--Feature 2--*/
-const feature2 =[
+/*--Feature 3--*/
+const feature3 =[
   {
-    title: "Make your website in no-time with us.",
-    img: "img1.jpg",
+    title: "やりとりのハードルが下がる",
+    icon: "mdi mdi-chat-outline",
+    desc: "システムが自動で返信するので、友だちがメッセージを送信するハードルが下がり、気軽にコミュニケーションを取ることが出来ます。",
   },
   {
-    title: "Make your website in no-time with us.",
-    img: "img2.jpg",
+    title: "返信や問い合わせ対応の効率化が出来る",
+    icon: "mdi mdi-chat-outline",
+    desc: "簡単な問い合わせやよくある質問は、自動的に返答するため、対応の効率化が出来ます。複雑な対応や丁寧に対応したほうが良い問い合わせに、スタッフのリソースを割り当てられます。",
   },
   {
-    title: "Make your website in no-time with us.",
-    img: "img3.jpg",
-  },
-  {
-    title: "Make your website in no-time with us.",
-    img: "img4.jpg",
+    title: "豊富なコンテンツを提供できる",
+    icon: "mdi mdi-chat-outline",
+    desc: "チャットボットならではの、ゲームや診断機能などのコンテンツを配信することが出来ます。たとえば、クイズやカラーセラピーなど。遊び感覚で使ってもらうことで、顧客にとっても楽しい体験を提供することができます。",
   },
 ];
 
@@ -288,4 +298,4 @@ const Blog =[
   },
 ];
 
-export { headerMenu,feature1,feature2,portfolio,pricePlan,team,Testimonials,Blog};
+export { headerMenu,feature1,feature3,portfolio,pricePlan,team,Testimonials,Blog};
