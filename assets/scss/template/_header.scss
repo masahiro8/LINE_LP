@@ -1,12 +1,15 @@
 
 .app-header {
     background-color: transparent !important;
-    height: 85px !important;
+    height: 100px !important;
   .navbar-nav {
     align-items: center;
   }
   .v-toolbar{
     background-color: transparent;
+  }
+  .v-toolbar__content{
+    height: 74px !important;
   }
   &.header1, &.header2{
     top:0 !important;
@@ -51,6 +54,9 @@
     width: 33%;
     display: inline-block;
   }
+}
+.header-text{
+  line-height:$textarea-line-height;
 }
 @media (max-width: 767px) {
   .app-header {

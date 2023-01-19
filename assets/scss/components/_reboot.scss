@@ -53,7 +53,7 @@ h6 {
 
 .no-effect-button {
   &:hover {
-    color: rgb(var(--v-theme-blue));
+    color: rgb(var(--v-theme-green));
     &::before {
       background-color: transparent;
     }
@@ -157,11 +157,11 @@ h6 {
 }
 
 .bg-extra-light {
-  background-color: #f4f8fa;
+  background-color: #F1F8E9;
 }
 
 .bg-light-info {
-  background-color: #cfecfe;
+  background-color: #E8F5E9;
 }
 
 .grey--text {

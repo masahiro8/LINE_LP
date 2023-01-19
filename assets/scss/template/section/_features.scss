@@ -33,6 +33,10 @@
   line-height: 36px;
 }
 
+.feature-text{
+  line-height:$textarea-line-height;
+}
+
 @media (max-width: 767px) {
   .section-title {
     font-size: 23px;

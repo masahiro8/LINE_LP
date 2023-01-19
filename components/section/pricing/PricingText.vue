@@ -8,11 +8,10 @@
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Pricing</h2>
+              <h2 class="ui-title font-weight-bold">利用料金</h2>
               <p class="text-muted">
-                Here you can check Demos we created you can easily use it. Its
-                quite easy to Create your own dream website & dashboard in
-                No-time.
+                初期設定、月次運用代行のフルサポートだけでなく、
+                スポットでのクリエイティブ制作なども承っております。
               </p>
             </div>
           </v-col>

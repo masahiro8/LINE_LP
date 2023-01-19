@@ -11,7 +11,7 @@ const drawer = ref(null);
       <v-container class="fill-height">
         <v-toolbar class="bg-transparent d-flex align-center">
           <!-- Logo -->
-          <LcLogoWhiteTextLogo />
+          <LcLogoBackhamLogo />
           <!-- Desktop view Navigation -->
           <div
             class="navigation ml-auto d-lg-block"
@@ -19,21 +19,18 @@ const drawer = ref(null);
             @click="isActive = !isActive"
           >
             <ul class="d-flex navbar-nav">
-              <li class="nav-item">
-                <NuxtLink class="nav-link " to="/"> Custom Components </NuxtLink>
-              </li>
-              <li class="nav-item">
-                <NuxtLink class="nav-link" to="/basic-components"
-                  >Basic Components</NuxtLink
-                >
-              </li>
               <li class="nav-item d-md-flex d-sm-none">
                 <!-- login-regiter -->
                 <v-btn
-                  class="btn bg-white"
+                  class="btn bg-white mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
                   flat
                 >
-                  <NuxtLink to="https://www.wrappixel.com/templates/nextkit-nuxtjs-free-uikit/" target="_blank" class="text-decoration-none text-dark">Download Free</NuxtLink>
+                  <NuxtLink
+                    to=""
+                    target="_blank"
+                    class="text-decoration-none text-dark font-weight-bold"
+                    >お問合せ</NuxtLink
+                  >
                 </v-btn>
               </li>
             </ul>
@@ -52,9 +49,11 @@ const drawer = ref(null);
   </div>
   <!----sidebar menu drawer start----->
   <v-navigation-drawer v-model="drawer" temporary>
-    <ul class="navbar-nav py-4 ">
+    <ul class="navbar-nav py-4">
       <li class="nav-item mb-3">
-        <NuxtLink class="nav-link text-dark py-0" to="/"> Custom Components </NuxtLink>
+        <NuxtLink class="nav-link text-dark py-0" to="/">
+          Custom Components
+        </NuxtLink>
       </li>
       <li class="nav-item mb-4">
         <NuxtLink class="nav-link text-dark py-0" to="/basic-components"
@@ -64,7 +63,12 @@ const drawer = ref(null);
       <li class="nav-item ml-3 mr-3">
         <!-- login-regiter -->
         <v-btn color="error" block flat>
-         <NuxtLink to="https://www.wrappixel.com/templates/nextkit-nuxtjs-free-uikit/" target="_blank" class="text-decoration-none text-white">Download Free</NuxtLink>
+          <NuxtLink
+            to=""
+            target="_blank"
+            class="text-decoration-none text-white"
+            >お問合せ</NuxtLink
+          >
         </v-btn>
       </li>
     </ul>
