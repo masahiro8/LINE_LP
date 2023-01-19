@@ -52,6 +52,9 @@
     display: inline-block;
   }
 }
+.header-text{
+  line-height:$textarea-line-height;
+}
 @media (max-width: 767px) {
   .app-header {
     .navigation {
