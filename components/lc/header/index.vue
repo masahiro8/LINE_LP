@@ -10,6 +10,8 @@ const drawer = ref(null);
     <v-app-bar class="app-header pt-lg-0 pt-3" absolute flat elevate-on-scroll>
       <v-container class="fill-height">
         <v-toolbar class="bg-transparent d-flex align-center">
+          <!-- Logo -->
+          <LcLogoBackhamLogo />
           <!-- Desktop view Navigation -->
           <div
             class="navigation ml-auto d-lg-block"
@@ -19,11 +21,14 @@ const drawer = ref(null);
             <ul class="d-flex navbar-nav">
               <li class="nav-item d-md-flex d-sm-none">
                 <!-- login-regiter -->
-                <v-btn class="btn bg-white" flat>
+                <v-btn
+                  class="btn bg-white mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
+                  flat
+                >
                   <NuxtLink
                     to=""
                     target="_blank"
-                    class="text-decoration-none text-dark"
+                    class="text-decoration-none text-dark font-weight-bold"
                     >お問合せ</NuxtLink
                   >
                 </v-btn>

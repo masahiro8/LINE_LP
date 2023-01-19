@@ -3,6 +3,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'LcFooter': typeof import("../components/lc/footer/index.vue")['default']
     'LcHeader': typeof import("../components/lc/header/index.vue")['default']
+    'LcLogoBackhamLogo': typeof import("../components/lc/logo/BackhamLogo.vue")['default']
     'LcLogoPurpleLogo': typeof import("../components/lc/logo/PurpleLogo.vue")['default']
     'LcLogoWhiteLogo': typeof import("../components/lc/logo/WhiteLogo.vue")['default']
     'LcLogoWhiteTextLogo': typeof import("../components/lc/logo/WhiteTextLogo.vue")['default']
@@ -66,6 +67,7 @@ declare module '@vue/runtime-core' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyLcFooter': typeof import("../components/lc/footer/index.vue")['default']
     'LazyLcHeader': typeof import("../components/lc/header/index.vue")['default']
+    'LazyLcLogoBackhamLogo': typeof import("../components/lc/logo/BackhamLogo.vue")['default']
     'LazyLcLogoPurpleLogo': typeof import("../components/lc/logo/PurpleLogo.vue")['default']
     'LazyLcLogoWhiteLogo': typeof import("../components/lc/logo/WhiteLogo.vue")['default']
     'LazyLcLogoWhiteTextLogo': typeof import("../components/lc/logo/WhiteTextLogo.vue")['default']
@@ -132,6 +134,7 @@ declare module '@vue/runtime-core' {
 
 export const LcFooter: typeof import("../components/lc/footer/index.vue")['default']
 export const LcHeader: typeof import("../components/lc/header/index.vue")['default']
+export const LcLogoBackhamLogo: typeof import("../components/lc/logo/BackhamLogo.vue")['default']
 export const LcLogoPurpleLogo: typeof import("../components/lc/logo/PurpleLogo.vue")['default']
 export const LcLogoWhiteLogo: typeof import("../components/lc/logo/WhiteLogo.vue")['default']
 export const LcLogoWhiteTextLogo: typeof import("../components/lc/logo/WhiteTextLogo.vue")['default']
@@ -195,6 +198,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyLcFooter: typeof import("../components/lc/footer/index.vue")['default']
 export const LazyLcHeader: typeof import("../components/lc/header/index.vue")['default']
+export const LazyLcLogoBackhamLogo: typeof import("../components/lc/logo/BackhamLogo.vue")['default']
 export const LazyLcLogoPurpleLogo: typeof import("../components/lc/logo/PurpleLogo.vue")['default']
 export const LazyLcLogoWhiteLogo: typeof import("../components/lc/logo/WhiteLogo.vue")['default']
 export const LazyLcLogoWhiteTextLogo: typeof import("../components/lc/logo/WhiteTextLogo.vue")['default']

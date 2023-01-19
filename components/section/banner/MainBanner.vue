@@ -25,7 +25,7 @@
                 <NuxtLink
                   to=""
                   target="_blank"
-                  class="text-decoration-none text-white"
+                  class="text-decoration-none text-white font-weight-bold"
                 >
                   お問合せ
                 </NuxtLink>
