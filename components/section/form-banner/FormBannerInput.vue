@@ -18,7 +18,7 @@
                 <form>
                   <div class="stylish-input-group">
                     <v-text-field
-                      placeholder="Enter Email Address"
+                      placeholder="メールアドレスを入力ください"
                       variant="solo"
                       hide-details
                     ></v-text-field>

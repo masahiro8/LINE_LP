@@ -48,17 +48,17 @@
   background: -webkit-linear-gradient(
     legacy-direction(to right),
     rgb(var(--v-theme-error)),
-    rgb(var(--v-theme-orange))
+    rgb(var(--v-theme-green))
   );
   background: -webkit-gradient(
     linear,
     left top,
     right top,
     from(rgb(var(--v-theme-error))),
-    to(rgb(var(--v-theme-orange)))
+    to(rgb(var(--v-theme-green)))
   );
-  background: -webkit-linear-gradient(left, rgb(var(--v-theme-error)), rgb(var(--v-theme-orange)));
-  background: linear-gradient(90deg, rgb(var(--v-theme-error)) 0, rgb(var(--v-theme-orange)));
+  background: -webkit-linear-gradient(left, rgb(var(--v-theme-error)), rgb(var(--v-theme-green)));
+  background: linear-gradient(90deg, rgb(var(--v-theme-error)) 0, rgb(var(--v-theme-green)));
   border: 0px;
 
   &:hover {

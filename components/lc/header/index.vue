@@ -17,24 +17,7 @@ const drawer = ref(null);
             class="navigation ml-auto d-lg-block"
             v-bind:class="[isActive ? 'd-block' : '']"
             @click="isActive = !isActive"
-          >
-            <ul class="d-flex navbar-nav">
-              <li class="nav-item d-md-flex d-sm-none">
-                <!-- login-regiter -->
-                <v-btn
-                  class="btn bg-white mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
-                  flat
-                >
-                  <NuxtLink
-                    to=""
-                    target="_blank"
-                    class="text-decoration-none text-dark font-weight-bold"
-                    >お問合せ</NuxtLink
-                  >
-                </v-btn>
-              </li>
-            </ul>
-          </div>
+          ></div>
           <v-app-bar-nav-icon
             width="30"
             class="d-md-none d-sm-flex ml-auto drawer-icon text-white mr-0"

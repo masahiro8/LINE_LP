@@ -17,7 +17,7 @@
             </h4>
             <div class="mt-md-16 mt-10 d-sm-flex d-block">
               <v-btn
-                color="blue"
+                color="white"
                 class="mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
                 size="large"
                 flat
@@ -25,7 +25,7 @@
                 <NuxtLink
                   to=""
                   target="_blank"
-                  class="text-decoration-none text-white font-weight-bold"
+                  class="text-decoration-none text-green font-weight-bold"
                 >
                   お問合せ
                 </NuxtLink>
